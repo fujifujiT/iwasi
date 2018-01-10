@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+.btn-default.DX
+                {background: deepskyblue;
+                 border-color: #00ace6;
+                 color: white}
+.btn-default.DX:hover
+                {background: #00ace6;
+                 border-color: #0099cc;
+                 color: white}
+.btn-default.DX:active
+                {background: #0099cc;
+                 border-color: #0086b3;
+                 color: white}
+.btn-default.DX:focus
+                {border-color: #0086b3}
+
+.btn-default.game
+               {background: darkgrey;
+                border-color: #999999;
+                color: white}
+.btn-default.game:hover
+                {background: grey;
+                 border-color: #666666;
+                 color: white}
+.btn-default.game:active
+                {background: #666666;
+                 border-color: #4d4d4d;
+                 color: white}
+.btn-default.game:focus
+                {border-color: #4d4d4d}
+
+
+.btn-default.baby
+                {background: hotpink;
+                 border-color: #e65ea2;
+                 color: white}
+.btn-default.baby:hover
+                {background: #e65ea2;
+                 border-color: #cc5490;
+                 color: white}
+.btn-default.baby:active
+                {background: #cc5490;
+                 border-color: #b3497e;
+                 color: white}
+.btn-default.baby:focus
+                {border-color: #b3497e}
+
+.btn-default.other
+                {background: #8b4513;
+                 border-color: #7a3c0f;
+                 color: white}
+.btn-default.other:hover
+                {background: #7a3c0f;
+                 border-color: #66330e;
+                 color: white}
+.btn-default.other:active
+                {background: #66330e;
+                 border-color: #4d260b;
+                 color: white}
+.btn-default.other:focus
+                {border-color: #4d260b}
+
+.btn-default.goods
+                {background: #a100e6;
+                 border-color: #8f00cc;
+                 color: white}
+.btn-default.goods:hover
+                {background: #8f00cc;
+                 border-color: #7d00b3;
+                 color: white}
+.btn-default.goods:active
+                {background: #7d00b3;
+                 border-color: #6b0099;
+                 color: white}
+.btn-default.goods:focus
+                {border-color: #6b0099}
+
+.btn-default.EC
+                {background: #ffffcc;
+                 border-color: #e6e6b8}
+.btn-default.EC:hover
+                {background: #e6e6b8;
+                 border-color: #cccca3}
+.btn-default.EC:active
+                {background: #cccca3;
+                 border-color: #b3b38f}
+.btn-default.EC:focus
+                {border-color: #b3b38f}
+
+
+.boxTop        {background: white;
+                margin: 0 auto;
+                padding-bottom: 20px;
+                position:relative}
+
+.boxT           {margin: 0;
+                 padding-top: 3em}
+
+.boxback       {background: white;
+                border-radius: 4px}
+
+.boxT table td{padding: 3em}
+
+.boxTop p      {text-shadow: 2px 2px 1px #000,
+                -2px 2px 1px #000,
+                2px -2px 1px #000,
+                -2px -2px 1px #000;
+                position: absolute;/*絶対配置*/
+                text-align: center;
+                color: #FFF;/*文字は白に*/
+                font-weight: bold;
+                font-size: 4em;
+                width: 5em;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%,-50%);
+                -webkit-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+                margin:0;
+                padding:0;}
+
+.boxTop img   {
+                width: 500px;
+                min-width: 15%;
+                max-width: 500px;}
+
+.boxTop img:hover
+                {filter:alpha(opacity=80);
+                opacity:0.6; }
+
+.boxA          {margin: 0 auto;
+                max-width: 1075px;
+                width: auto;}
+
+.boxB          {font-size: 18px;
+                margin:0 auto;
+                margin-top: 30px;
+                margin-bottom: 20px;
+                border: solid 1px lightgray;
+                background:whitesmoke;
+                padding: 50px;
+                width: 1000px;
+                border-radius: 25px;
+                }
+
+.itemEC        {padding-top: 30px;
+                font-size: 14px;
+                display: inline-block;
+                width: auto;
+                margin: 10px;
+                }
+
+.itemEC img   {width: 191px;
+                min-width: 15%;
+                max-width: 191px;  }
+
+.itemEC img:hover{filter:alpha(opacity=80);
+                   opacity:0.8; }
+
+.itemEC_a     {text-align: center;
+                margin: auto 0;}
+
+
+
+.itemEC_detail{
+                margin: 0px auto;
+                width: auto;
+                text-align: center;}
+
+.itemEC_detail img {
+                width: 200px;
+                min-width: 15%;
+                max-width: 200px;}
+
+.table-bordered{
+                margin: 30px auto;
+                width: 70%  }
+
+.sumEC         {border-top: 3px solid #000080;
+                margin:10px;
+                width: 78%;  }
+
+.cartsum       {font-size: 24px;
+                color: red;}
+
+.delbtn        {height: 200px;
+                vertical-align:middle;
+                display:table-cell;}
+
+.frame         {display: inline-block;
+                position: relative;}
+
+.warning       {display:inline;
+                color:#ff0000}
+
+.buy           {background-color: white;
+                width: 60%;
+                height: 12em;
+                overflow:auto;
+                margin: 30px auto;
+                padding: 20px;
+                border: 1px dashed orange; }
+
+.buy_item      {margin: 10px;
+                font-size: 18px;}
+
+.buy_item img {min-width: 80px;
+                max-width: 80px}
+
+
+.frame:after  {
+                position: absolute;
+                display: block;
+                content: "";
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;  }
+
+
+.navbar-default {
+    background-color: #59b691;
+    border-color: #37725b;
+}
+
+.navbar-default .navbar-brand {
+    color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+    color: #ecf0f1;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #fff8db;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff8db;
+}
